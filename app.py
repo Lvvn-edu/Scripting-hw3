@@ -5,7 +5,7 @@ try:
     from scraper import scrape_books
     from database import bulk_insert_books, query_books, setup_database
 except ImportError:
-    print("❌ 找不到必要模組 (scraper.py 或 database.py)，請確認檔案有放在同一資料夾！")
+    print("找不到必要模組 (scraper.py或database.py)，請確認檔案有放在同一資料夾！")
     sys.exit(1)
 
 
@@ -108,3 +108,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
