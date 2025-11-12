@@ -1,6 +1,6 @@
 # Scripting-hw3
 專案結構
-app.py: 程式主入口點，提供 CLI 選單介面。\n
+app.py: 程式主入口點，提供 CLI 選單介面。
 scraper.py: 負責網頁爬取邏輯，使用 Selenium 處理分頁和資料擷取。
 database.py: 負責 SQLite 資料庫的初始化、批量儲存和查詢功能。
 程式啟動後會顯示主選單：
